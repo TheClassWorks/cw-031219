@@ -37,7 +37,6 @@
   display: flex;
   align-items: center;
   position: relative;
-
 }
 
 .slider-forward-btn,
@@ -64,4 +63,13 @@
 .slider-forward-btn:hover,
 .slider-back-btn:hover {
   background-color: gainsboro;
+}
+
+figure {
+  position: relative;
+}
+
+#titr {
+  position: absolute;
+  right: 250px;
 }
